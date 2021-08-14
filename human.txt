@@ -1,0 +1,10 @@
+/*TEAM*/
+Nom : Koga
+Contact :
+Twitter :
+Location : France
+
+/*SITE*/
+Standards : HTLML5, CSS3, Bootstrap4
+Compoment : Bootstrap
+Software : Visual Studio Code

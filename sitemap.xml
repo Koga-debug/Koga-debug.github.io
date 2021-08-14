@@ -6,4 +6,7 @@
     <url>
         <loc>https://koga-debug.github.io/sitemap.xml</loc>
     </url>
+    <url>
+        <loc>https://koga-debug.github.io/favicon/android-chrome-192x192.png</loc>
+    </url>
 </urlset>
