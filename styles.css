@@ -1,8 +1,8 @@
-body {
+:root {
     background-color: #383838;
-    }
+}
 
-logo {
+.logo {
     width: 50px;
     height: 50px;
-    }
+}
