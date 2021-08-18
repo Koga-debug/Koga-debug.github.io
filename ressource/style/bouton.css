@@ -1,0 +1,21 @@
+ul li {
+    list-style-type: none;
+}
+
+a {
+    background-color: #0179F2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2,5px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    float: center
+}
+
+a:hover {
+    background-color: #014CAF;
+    color: white;
+    transition: all 0.5s;
+}
