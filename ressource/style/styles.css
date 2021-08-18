@@ -11,7 +11,7 @@ h1 {
 }
 
 p {
-    font-family: 'Satisfy';
+    font-family: 'Quicksand';
 }
 
 a {
@@ -70,4 +70,9 @@ body {
     width: fit-content;
     height: fit-content;
     margin: auto;
+}
+
+.chap {
+    padding-left: 50px;
+    padding-right: 50px;
 }
