@@ -8,6 +8,7 @@ p, h1, h2, h3 {
 
 h1 {
     font-family: 'Akronim';
+    font-size: auto;
 }
 
 p {
@@ -55,14 +56,24 @@ body {
 }
 
 .cover {
-    padding: 1%;
     width: 20%;
     height: 20%;
 }
 
-.resum {
+.illu {
+    padding: 1%;
+}
+
+.resume {
     padding-top: 125px;
     padding-right: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.resum {
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
 }
 
@@ -81,4 +92,8 @@ body {
 .chap {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.img-thumbnail {
+    size: 1px;
 }
