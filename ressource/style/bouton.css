@@ -14,10 +14,18 @@ ul li {
     float: center
 }
 
-
 .navig:hover {
-    background-color: #014CAF;
+    animation-name: changingColor;
+    animation-duration: 1.2s;
     color: white;
-    transition: all 0.5s;
-    cursor: pointer;
+}
+
+@keyframes changingColor {
+    0% {
+        background-color: #0179F2;
+    }
+    
+    100% {
+        background-color: #014CAF;
+    }
 }

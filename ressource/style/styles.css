@@ -72,6 +72,12 @@ body {
     margin: auto;
 }
 
+.chapitre {
+    padding-top: 3%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .chap {
     padding-left: 50px;
     padding-right: 50px;
