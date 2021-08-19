@@ -9,6 +9,8 @@ p, h1, h2, h3 {
 h1 {
     font-family: 'Akronim';
     font-size: auto;
+    position: relative;
+    top: 10px;
 }
 
 p {
@@ -96,4 +98,48 @@ body {
 
 .img-thumbnail {
     size: 1px;
+}
+
+.indic-pseudo {
+    padding-top: 3%;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #ffffff
+}
+
+.indic {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #ffffff
+}
+
+.champ-com {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 3%;
+    display: block;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2.5px;
+    border-color: white;
+    background-color: #383838;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.champ {
+    display: block;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2.5px;
+    border-color: white;
+    background-color: #383838;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }

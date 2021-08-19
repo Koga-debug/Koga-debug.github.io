@@ -11,10 +11,29 @@ ul li {
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    float: center
+    float: center;
 }
 
 .navig:hover {
+    animation-name: changingColor;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    color: white;
+}
+
+.send {
+    background-color: #0179F2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2,5px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Big Shoulders Stencil Text';
+}
+
+.send:hover {
     animation-name: changingColor;
     animation-fill-mode: forwards;
     animation-duration: 1.2s;
