@@ -131,6 +131,12 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 768px) {
+    champ-com {
+        width: 10vw;
+    }
+}
+
 .champ {
     display: block;
     align-items: center;
