@@ -136,16 +136,14 @@ body {
     .champ-com {
         width: 50%;
     }
-}
-
-@media screen and (max-width:480px) {
     h1 {
-        font-size: 150%;
+        font-size: 5vw;
     }
     .logo {
-        height: 10%;
-        width: 10%;
+        height: 7%;
+        width: 7%;
     }
+    
 }
 
 .champ {
