@@ -131,9 +131,9 @@ body {
     margin-right: auto;
 }
 
-@media (max-width: 768px) {
-    champ-com {
-        width: 10vw;
+@media screen and (max-width: 720px) {
+    .champ-com {
+        width: 50%;
     }
 }
 
@@ -148,4 +148,8 @@ body {
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+.foo {
+    color: #0179F2;
 }

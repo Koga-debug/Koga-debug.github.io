@@ -32,6 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/ressource/script/index.js"></script>
     <title>Chapitre 1</title>
 </head>
 <header>
@@ -44,7 +45,7 @@
 </header>
 <body>
 
-    <p class="chapitre">_ Laissez-moi ! hurlais-je à mes poursuivants qui me répondirent par des ricanements cruels.</p>
+    <p class="chapitre">- Laissez-moi ! hurlais-je à mes poursuivants qui me répondirent par des ricanements cruels.</p>
 
     <p class="chap">Je courrais depuis une dizaine de minutes dans la cour de notre école. Pourquoi personne ne m'aidait?! Ils étaient tous là à nous regarder pourtant ! Mais comme des gardes, ils ne bougeaient pas d'un pouce. Je finis par sentir la capuche de mon pullover se faire attraper et je me fis violemment jeter à terre. S'ensuivit une salve de coups qui me coupèrent le souffle. Accompagnée d'un flot d'insultes "Handicapé, espèce de con, tu pourrais mourir personne ne te regretterais". Je me mis à pleurer à cause de la douleur provoquée par la violence des coups, les insultes quant à elles ne me faisaient rien. C'est triste à dire mais j'ai fini par être habitué à ces dernières.</p>
         
@@ -54,11 +55,14 @@
     <input type="text" id="pseudo" pseudo="pseudo" required minlength="4" maxlength="16" size="12" class="champ">
     <br>
     <label for="commentaire" class="indic">Commentaire</label>
-    <input type="text" id="commentaire" commentaire="commentaire" size="255" class="champ-com">
+    <textarea type="text" id="commentaire" commentaire="commentaire" size="100" class="champ-com"></textarea>
     <br>
-    <bouton class="send">Envoyer</bouton>
+    <bouton class="send" id="envoie">Envoyer</bouton>
     <br>
     <br>
+    
+    <div id="c">
+    </div>
 
 <div class="text-center">
     <nav>
