@@ -45,6 +45,26 @@ body {
     display:inline;
 }
 
+.welcome-text {
+    display: inline;
+}
+
+.logo-index {
+    width: 50px;
+    height: 50px;
+    display:inline;
+}
+
+.select-chapitres {
+    display: inline;
+}
+
+.logo-chapitres {
+    width: 50px;
+    height: 50px;
+    display:inline;
+}
+
 .container {
     text-align: center;
 }
@@ -60,6 +80,7 @@ body {
 .cover {
     width: 20%;
     height: 20%;
+    float: left;
 }
 
 .illu {
@@ -132,20 +153,6 @@ body {
     width: 90%;
 }
 
-@media screen and (max-width: 720px) {
-    .champ-com {
-        width: 50%;
-    }
-    h1 {
-        font-size: 5vw;
-    }
-    .logo {
-        height: 7%;
-        width: 7%;
-    }
-    
-}
-
 .champ {
     display: block;
     align-items: center;
@@ -158,6 +165,44 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 720px) {
+    .champ-com {
+        width: 50%;
+    }
+    .welcome-text {
+        font-size: 8vw;
+        display: inline;
+    }
+    .select-chapitres {
+        font-size: 6vw;
+        display: inline;
+    }
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+    .logo-chapitres {
+        height: 7%;
+        width: 7%;
+    }
+    .cover {
+        width: 20%;
+        height: 20%;
+    }
+    
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
 
 .foo {
     color: #0179F2;

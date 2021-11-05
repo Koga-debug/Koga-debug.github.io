@@ -11,7 +11,27 @@ ul li {
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    float: center;
+}
+
+.navig-chapitres {
+    background-color: #0179F2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2,5px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
 }
 
 .navig:hover {
@@ -22,7 +42,6 @@ ul li {
 }
 
 .send {
-    text-align: center;
     background-color: #0179F2;
     border-color: white;
     border-style: solid;
@@ -53,4 +72,22 @@ ul li {
     margin-right: auto;
     width: 50px;
     height: 50px;
+}
+
+.send-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 720px) {
+    .btn-middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
 }
