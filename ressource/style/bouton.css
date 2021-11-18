@@ -24,9 +24,16 @@ ul li {
     text-decoration: none;
 }
 
+.navig-chapitres:hover {
+    animation-name: changingColor;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    color: white;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
   }
 
 .grid-item {
