@@ -176,12 +176,12 @@ body {
     display: inline;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 439px) {
     .champ-com {
         width: 50%;
     }
     .welcome-text {
-        font-size: 8vw;
+        font-size: 9vw;
         display: inline;
     }
     .select-chapitres {
@@ -189,8 +189,8 @@ body {
         display: inline;
     }
     .logo-index {
-        height: 9%;
-        width: 9%;
+        height: 10%;
+        width: 10%;
     }
     .logo-chapitres {
         height: 7%;
@@ -214,6 +214,111 @@ body {
         text-decoration: underline;
     }
 
-.foo {
-    color: #0179F2;
+    .foo {
+        color: #0179F2;
+    }
+    .intro {
+        margin-top: 3vw;
+    }
+    .chapitre {
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 600px) {
+    .champ-com {
+        width: 50%;
+    }
+    .welcome-text {
+        font-size: 9vw;
+        display: inline;
+    }
+    .select-chapitres {
+        font-size: 6vw;
+        display: inline;
+    }
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+    .logo-chapitres {
+        height: 7%;
+        width: 7%;
+    }
+    .cover {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .foo {
+        color: #0179F2;
+    }
+    .intro {
+        margin-top: 3vw;
+    }
+    .chapitre {
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .champ-com {
+        width: 50%;
+    }
+    .welcome-text {
+        font-size: 9vw;
+        display: inline;
+    }
+    .select-chapitres {
+        font-size: 6vw;
+        display: inline;
+    }
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+    .logo-chapitres {
+        height: 7%;
+        width: 7%;
+    }
+    .cover {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .foo {
+        color: #0179F2;
+    }
+    .intro {
+        margin-top: 3vw;
+    }
+    .chapitre {
+        margin-top: 3vw;
+    }
 }
