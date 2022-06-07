@@ -13,45 +13,6 @@ ul li {
     text-decoration: none;
 }
 
-.navig-chapitres-upload {
-    background-color: #0179F2;
-    border-color: white;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 2,5px;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
-.navig-chapitres {
-    background-color: #f20101;
-    border-color: white;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 2,5px;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
-.navig-chapitres:hover {
-    animation-name: changingColor;
-    animation-fill-mode: forwards;
-    animation-duration: 1.2s;
-    color: white;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-  }
-
-.grid-item {
-    padding: 20px;
-    text-align: center;
-}
-
 .navig:hover {
     animation-name: changingColor;
     animation-fill-mode: forwards;
@@ -78,6 +39,12 @@ ul li {
     color: white;
 }
 
+@keyframes changingColor1 {
+    100% {
+        background-color: #940000;
+    }
+}
+
 @keyframes changingColor {
     100% {
         background-color: #014CAF;
@@ -98,16 +65,11 @@ ul li {
     align-items: center;
 }
 
-
 @media screen and (max-width: 439px) {
     .btn-middle {
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto;
     }
 }
 
@@ -116,16 +78,6 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .navig-chapitres-upload {
-        font-size: 2.5vw;
-    }
-    .navig-chapitres {
-        font-size: 2.5vw;
     }
 }
 
@@ -134,9 +86,33 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
     }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 3440px) {
+  .navig {
+      background-color: #0179F2;
+      border-color: white;
+      border-style: solid;
+      border-radius: 25px;
+      border-width: 5px;
+      color: white;
+      padding: 20px 20px;
+      text-decoration: none;
+      font-size: 1vw;
+  }
+
+  .btn-middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+      height: 80px;
+  }
 }
