@@ -1,0 +1,118 @@
+ul li {
+    list-style-type: none;
+}
+
+.navig {
+    background-color: #0179F2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2,5px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.navig:hover {
+    animation-name: changingColor;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    color: white;
+}
+
+.send {
+    background-color: #0179F2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2,5px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Big Shoulders Stencil Text';
+}
+
+.send:hover {
+    animation-name: changingColor;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    color: white;
+}
+
+@keyframes changingColor1 {
+    100% {
+        background-color: #940000;
+    }
+}
+
+@keyframes changingColor {
+    100% {
+        background-color: #014CAF;
+    }
+}
+
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.send-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 439px) {
+    .btn-middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 600px) {
+    .btn-middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .btn-middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 3440px) {
+  .navig {
+      background-color: #0179F2;
+      border-color: white;
+      border-style: solid;
+      border-radius: 25px;
+      border-width: 5px;
+      color: white;
+      padding: 20px 20px;
+      text-decoration: none;
+      font-size: 1vw;
+  }
+
+  .btn-middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+      height: 80px;
+  }
+}

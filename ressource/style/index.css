@@ -1,0 +1,192 @@
+ .welcome-text {
+    display: inline;
+}
+
+.logo-index {
+    width: 50px;
+    height: 50px;
+    display:inline;
+}
+
+.intro {
+    padding: 3%;
+    padding-top: 3%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.cover {
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+.img-thumbnail {
+    size: 1px;
+}
+
+.illu {
+    padding: 1%
+}
+
+.resume {
+    padding-top: 125px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.resum {
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 439px) {
+    .welcome-text {
+        font-size: 9vw;
+        display: inline;
+    }
+
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+
+    .cover {
+        width: 30%;
+        height: 30%;
+    }
+
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .intro {
+        margin-top: 3vw;
+    }
+}
+
+
+@media screen and (min-width:440px) and (max-width: 600px) {
+    .welcome-text {
+        font-size: 9vw;
+        display: inline;
+    }
+
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+
+    .cover {
+        width: 30%;
+        height: 30%;
+    }
+
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .intro {
+        margin-top: 3vw;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .welcome-text {
+        font-size: 9vw;
+        display: inline;
+    }
+
+    .logo-index {
+        height: 10%;
+        width: 10%;
+    }
+
+    .cover {
+        width: 30%;
+        height: 30%;
+    }
+
+    .illu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume {
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .intro {
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 3440px) {
+  .welcome-text {
+      font-size: 3vw;
+      display: inline;
+  }
+
+  .logo-index {
+      height: 10%;
+      width: 10%;
+  }
+
+  .resume {
+      padding-top: 50px;
+      padding-left: 50px;
+      text-decoration: underline;
+      font-size: 220%;
+  }
+
+  .resum {
+      padding-right: 3vw;
+      padding-left: 3vw;
+      text-align: center;
+      font-size: 220%;
+  }
+
+  .intro {
+      font-size: 220%;
+      padding-left: 3vw;
+      padding-right: 3vw;
+  }
+
+  .jumbotron-fluid {
+      background-color: #0179F2;
+      border-style: solid;
+      border-color: white;
+      border-radius: 25px;
+      border-width: 5px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+  }
+}

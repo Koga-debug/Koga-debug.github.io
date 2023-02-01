@@ -1,0 +1,46 @@
+:root {
+    background-color: #383838;
+}
+
+p, h1, h2, h3 {
+    color: #ffffff
+}
+
+h1 {
+    font-family: 'Akronim';
+    font-size: 250%;
+    position: relative;
+    top: 10px;
+}
+
+p {
+    font-family: 'Quicksand';
+}
+
+a {
+    font-family: 'Big Shoulders Stencil Text'
+}
+
+body {
+    background-color: #383838;
+}
+
+.jumbotron {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.jumbotron-fluid {
+    background-color: #0179F2;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+}
